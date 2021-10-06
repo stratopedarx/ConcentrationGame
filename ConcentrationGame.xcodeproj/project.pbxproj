@@ -37,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74C80A27270DBFD100BCC9C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74DD4DA0270DA7A20030DDEB /* AppDelegate.swift */,
+				74DD4DA2270DA7A20030DDEB /* SceneDelegate.swift */,
+				74DD4DAB270DA7A60030DDEB /* LaunchScreen.storyboard */,
+				74DD4DA9270DA7A60030DDEB /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		74DD4D94270DA7A10030DDEB = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +67,9 @@
 		74DD4D9F270DA7A20030DDEB /* ConcentrationGame */ = {
 			isa = PBXGroup;
 			children = (
-				74DD4DA0270DA7A20030DDEB /* AppDelegate.swift */,
-				74DD4DA2270DA7A20030DDEB /* SceneDelegate.swift */,
 				74DD4DA4270DA7A20030DDEB /* ViewController.swift */,
 				74DD4DA6270DA7A20030DDEB /* Main.storyboard */,
-				74DD4DA9270DA7A60030DDEB /* Assets.xcassets */,
-				74DD4DAB270DA7A60030DDEB /* LaunchScreen.storyboard */,
+				74C80A27270DBFD100BCC9C6 /* Supporting Files */,
 				74DD4DAE270DA7A60030DDEB /* Info.plist */,
 			);
 			path = ConcentrationGame;
@@ -289,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S8G3XGRSC8;
+				DEVELOPMENT_TEAM = 353WQ2ARJQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ConcentrationGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -302,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = converter.ConcentrationGame;
+				PRODUCT_BUNDLE_IDENTIFIER = converter.ConcentrationGame.Lobanov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S8G3XGRSC8;
+				DEVELOPMENT_TEAM = 353WQ2ARJQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ConcentrationGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = converter.ConcentrationGame;
+				PRODUCT_BUNDLE_IDENTIFIER = converter.ConcentrationGame.Lobanov;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
